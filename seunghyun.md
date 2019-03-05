@@ -61,4 +61,14 @@
 - <!--...-->  
    주석 태그 입니다
 
-3. 어떤 자바스크립트 라이브러리를 불러오는지를 조사해오기 (선택)
+3. 어떤 자바스크립트 라이브러리를 불러오는지를 조사해오기
+ fbevents.js
+ analytics.js
+ gtm.js
+ https://static.hotjar.com/c/hotjar-.js
+ hotjar-852541.js
+ modules-8b7fcf2cd58efe53e8d4007e62c23a79.js
+ vendors_main.a689e263.chunk.js
+ main.7d01e732.js
+ 검색 결과 fbevents analytics gtm hotjar 는 검색 통계 관련 js 라이브러리로 추정됩니다
+ 그리고 webpack4 프레임워크를 사용한 것으로 보이는데 검색결과 modules, vendors, chunk, main 이 webpack4 에서 자주 사용되는 파일 명인 것으로 나옵니다.
