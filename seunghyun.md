@@ -8,11 +8,10 @@
 
  2. 각 태그들이 무슨 기능을 하는지 조사하기
 
- - <!DOCTYPE html>
-   HTML5의 DOCTYPE 선언입니다. 문서형 정의 태그로 HTML5, XHTML, HTML의 세가지 문서 유형 중 하나를 선택해 선언해주어야 합니다. 
- - <html></html>
+   - <!DOCTYPE html> HTML5의 DOCTYPE 선언입니다. 문서형 정의 태그로 HTML5, XHTML, HTML의 세가지 문서 유형 중 하나를 선택해 선언해주어야 합니다. 
+   - <html></html>
    HTML 문서의 시작을 알리는 태그 입니다.
- - <head></head>
+   - <head></head>
    head 태그는 모든 헤드 요소들을 담을 수 있습니다. head 요소는 문서의 제목이나, 스크립트, 스타일, 메타정보 등을 담을 수 있습니다.
    (<head> 태그 안에 <title>, <style>, <base>, <link>, <meta>, <script>, <noscript> 가 들어갈 수 있음)
  - <meta>
@@ -75,4 +74,4 @@
     main.7d01e732.js
     검색 결과 fbevents analytics gtm hotjar 는 검색 통계 관련 js 라이브러리로 추정됩니다
     그리고 webpack4 프레임워크를 사용한 것으로 보이는데 검색결과 modules, vendors, chunk, main 이 webpack4 에서 자주 사용되는 파일 명인 것으로 나옵니다.
-    
+
