@@ -1,0 +1,10 @@
+@import url(common.v1.4.7.css);
+
+.showcase .slick-dots {
+	padding-right: 40px;
+}
+
+.showcase .slick-dots li {
+	margin-left: 25px;
+	margin-right: 25px;
+}
