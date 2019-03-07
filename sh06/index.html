@@ -1,217 +1,554 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Pra</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-            crossorigin="anonymous"
-        />
-        <script src="main.js"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="https://www.grab.com/sg/"
-                ><img src="img/Grab_logo.png" class="grabLogo" alt=""
-            /></a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Grab Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body style="background-color:green">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="https://www.grab.com/sg/"
+        ><img src="img/Grab_logo.png" class="grabLogo" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="navbarDropdown"
-                            role="button"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            <img
-                                src="img/singapore.png"
-                                class="nationalFlag"
-                                alt=""
-                            />
-                        </a>
-                        <div
-                            class="dropdown-menu"
-                            aria-labelledby="navbarDropdown"
-                        >
-                            <a class="dropdown-item" href="#"
-                                ><img
-                                    src="img/singapore.png"
-                                    height="30"
-                                    alt=""
-                                    class="nationalFlag"
-                                />
-                                &nbsp;Singapore</a
-                            >
-                            <a class="dropdown-item" href="#"
-                                ><img
-                                    src="img/malaysia.png"
-                                    height="30"
-                                    alt=""
-                                    class="nationalFlag"
-                                />
-                                &nbsp;Malaysia</a
-                            >
-                            <a class="dropdown-item" href="#"
-                                ><img
-                                    src="img/indonesia.png"
-                                    height="30"
-                                    alt=""
-                                    class="nationalFlag"
-                                />
-                                &nbsp;Indonesia</a
-                            >
-                            <a class="dropdown-item" href="#"
-                                ><img
-                                    src="img/thailand.png"
-                                    height="30"
-                                    alt=""
-                                    class="nationalFlag"
-                                />
-                                &nbsp;Thailand</a
-                            >
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="navbarDropdown"
-                            role="button"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            <span class="hoverGreen">Services</span>
-                        </a>
-                        <div
-                            class="dropdown-menu"
-                            aria-labelledby="navbarDropdown"
-                        >
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"
-                                >Something else here</a
-                            >
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="navbarDropdown"
-                            role="button"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            Dropdown
-                        </a>
-                        <div
-                            class="dropdown-menu"
-                            aria-labelledby="navbarDropdown"
-                        >
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"
-                                >Something else here</a
-                            >
-                        </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"
-                            >Home <span class="sr-only">(current)</span></a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="navbarDropdown"
-                            role="button"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            Dropdown
-                        </a>
-                        <div
-                            class="dropdown-menu"
-                            aria-labelledby="navbarDropdown"
-                        >
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"
-                                >Something else here</a
-                            >
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                            class="nav-link disabled"
-                            href="#"
-                            tabindex="-1"
-                            aria-disabled="true"
-                            >Disabled</a
-                        >
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input
-                        class="form-control mr-sm-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                    />
-                    <button
-                        class="btn btn-outline-success my-2 my-sm-0"
-                        type="submit"
-                    >
-                        Search
-                    </button>
-                </form>
+              <img src="img/singapore.png" class="nationalFlag" alt="" />
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"
+                ><img
+                  src="img/singapore.png"
+                  height="30"
+                  alt=""
+                  class="nationalFlag"
+                />
+                &nbsp;Singapore</a
+              >
+              <a class="dropdown-item" href="#"
+                ><img
+                  src="img/malaysia.png"
+                  height="30"
+                  alt=""
+                  class="nationalFlag"
+                />
+                &nbsp;Malaysia</a
+              >
+              <a class="dropdown-item" href="#"
+                ><img
+                  src="img/indonesia.png"
+                  height="30"
+                  alt=""
+                  class="nationalFlag"
+                />
+                &nbsp;Indonesia</a
+              >
+              <a class="dropdown-item" href="#"
+                ><img
+                  src="img/thailand.png"
+                  height="30"
+                  alt=""
+                  class="nationalFlag"
+                />
+                &nbsp;Thailand</a
+              >
             </div>
-        </nav>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span class="hoverGreen">Services2</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Corporate3
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >GrabPay <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Grab Rewards</a>
+          </li>
+          <li class="nav-item dropdown btn btn-outline-success">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="https://www.grab.com/sg/#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Drive with Grab
+            </a>
+            <div
+              class="dropdown-menu btn btn-outline-success"
+              aria-labelledby="navbarDropdown"
+            >
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/"
+                >Drive with Grab</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/taxi/"
+                >Taxi Driver</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/car/"
+                >Car Driver</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/car/"
+                >Hitch Driver</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/car/"
+                >Rental Driver</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/car/"
+                >GrabFood Driver Driver</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item btn btn-outline-success"
+                href="https://www.grab.com/sg/driver/car/"
+                >GrabPet Driver</a
+              >
+            </div>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Login
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="bd-example">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="C:\Users\kshrt\OneDrive\바탕 화면\img-gr1.png"
+              class="d-block w-100"
+              alt="C:\Users\kshrt\OneDrive\바탕 화면\img-gr1.png"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Our promise towards a SAFER EVERYDAY</h5>
+              <p><a href="#">FIND OUT MORE</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="C:\Users\kshrt\OneDrive\바탕 화면\img-gr1.png"
+              class="d-block w-100"
+              alt="C:\Users\kshrt\OneDrive\바탕 화면\img-gr1.png"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The New Grab App</h5>
+              <p>Your everyday needs are now a tap away.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="C:\Users\kshrt\OneDrive\바탕 화면\img-gr1.png"
+              class="d-block w-100"
+              alt="C:\Users\kshrt\OneDrive\바탕 화면\img-gr1.png"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Taxi. Car. Hitch.</h5>
+              <p>
+                All in One App.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <div class="jumbotron">
+      <h1 class="display-4">
+        What you should know before your first Grab ride
+      </h1>
+      <p class="lead">
+        .
+      </p>
+      <hr class="my-4" />
+      <p>
+        .
+      </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button"
+        >Click To Learn</a
+      >
+    </div>
+
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active">
+        How It Works
+      </a>
+      <a href="#" class="list-group-item list-group-item-action"
+        >Book in Just 2 Taps Key in your pick-up and drop-off locations to get
+        your estimated fare.</a
+      >
+      <a href="#" class="list-group-item list-group-item-action"
+        >Get a Driver Grab will find you the nearest available driver.</a
+      >
+      <a href="#" class="list-group-item list-group-item-action"
+        >Track Your Driver Know your driver’s location and estimated time of
+        arrival in real-time.</a
+      >
+      <a
+        href="#"
+        class="list-group-item list-group-item-action disabled"
+        tabindex="-1"
+        aria-disabled="true"
+        >Arrive Safely Share your trip details with loved ones for added safety
+        or even just to let them know you’re on your way.</a
+      >
+    </div>
+    <div>
+      <table class="table table-borderless">
+        <table class="table table-bordered">
+          <thead>
+            <th colspan="3" scope="col">
+              Latest News
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2" scope="row">
+                Grab News
+              </td>
+              <td>Feb.20.2019</td>
+            </tr>
+            <tr>
+              <td scope="row">
+                Jan.16.2019
+              </td>
+              <td>
+                Jan.14.2019
+              </td>
+              <td>
+                Dec.3.2018
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" scope="row"><i>View More</i></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-borderless">
+          <thead>
+            <th scope="col">
+              Grab
+            </th>
+            <th scope="col">
+              COMPANY
+            </th>
+            <th scope="col">
+              SERVICES
+            </th>
+            <th scope="col">
+              CORPORATE
+            </th>
+            <th scope="col">
+              RIDE
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">
+                28 Sin Ming Lane, #01-143, Midview City Singapore 573972
+              </td>
+              <td>
+                About
+              </td>
+              <td>
+                GrabTaxi
+              </td>
+              <td>
+                SCORE
+              </td>
+              <td>
+                Drive
+              </td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td>
+                Press
+              </td>
+              <td>
+                GrabCar
+              </td>
+              <td>
+                Grab for Business
+              </td>
+              <td>
+                Safety
+              </td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td>
+                Blog
+              </td>
+              <td>
+                GrabHitch
+              </td>
+              <td>
+                Partnerships
+              </td>
+              <td>
+                Help Centre
+              </td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td>
+                Food Blog
+              </td>
+              <td>
+                GrabShare
+              </td>
+              <td>
+                Grab Ventures
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td>
+                Careers
+              </td>
+              <td>
+                GrabCoach
+              </td>
+              <td>
+                Grab Platform
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td>
+                Security
+              </td>
+              <td>
+                GrabShuttle
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td>
+                Driver Centre
+              </td>
+              <td>
+                GrabShuttle Plus
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                GrabFamily
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                JustGrab
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                GrabRentals
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                GrabWheels
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                GrabFood
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                GrabExpress Beta
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td>
+                GrabPet
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </table>
+    </div>
+    <div class="card-footer">
+      STAY IN TOUCH
+    </div>
+    <div class="card-footer">
+      Terms of Service - Privacy Policy © Grab 2019 App Store Google Play
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
