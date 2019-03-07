@@ -1,3 +1,91 @@
-.navbar-brand {
-    width: 150px;
+.nationflag {
+    margin-left: 20px;
+    width: 25px;
+}
+.logo {
+    margin-left: 50px;
+    width: 90px;
+}
+.logo_nav {
+    margin: 10px;
+    width: 25px;
+}
+        /* .grap_pay:hover {
+            width: 80px;
+            background-image: url(img/grabpay_g.png);
+        }
+        .hover.grap_pay:hover{
+            opacity: 0;
+        }
+        .grap_pay{
+            width: 80px;
+        }
+
+        .icon_corp { 
+            margin: 10px;
+            width: 100px;
+        }
+
+        .business:hover{
+            background-image: url(img/bag_g.png);
+        } */
+
+.carousel-item {
+    height: 600px;
+}
+
+
+.carousel-caption {
+    margin: 0 0 250px 0;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    float: left;
+}
+
+.hand {
+    margin: 0 500px 0 0;
+}
+
+
+.container-fluid.screen-guide{
+    background-color: white;
+}
+.container-fluid {
+    width: 100%;
+    background-color:green;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.container-fluid > h2 {
+    font-weight: 600;
+    color: white;
+    margin: 0 auto; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 640px;
+    width: 100%;
+    font-size: 2.6em;
+}
+.btn_learn{
+    background-color: #ffffff;
+    color: green;
+    text-transform: uppercase;
+    padding: 15px 20px 15px;
+    font-size: 1.35em;
+    line-height: 1;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.carousel-text {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 2.6em;
+    padding-top: 50px;
 }
