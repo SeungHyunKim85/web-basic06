@@ -64,6 +64,73 @@
     max-height: 800px;
 }
 
-.carousel-inner > span {
-    z-index: 1000;
+.carousel-content {
+    width: 100%;
+    font-size: 45px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    top: 10%;
+    right: auto;
+    z-index: 1;
+    color: white;
+}
+.textGreen {
+    color: #009d3b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textwhite {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contentsInCarousell1 {
+    color: white;
+    max-width: 25%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.contentsInCarousell2 {
+    text-align: center;
+    color: white;
+    max-width: 25%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.contentsInCarousell3 {
+    color: white;
+    max-width: 25%;
+    position: absolute;
+    left: 15%;
+}
+
+.contentsInCarousell4 {
+    color: white;
+    max-width: 25%;
+    position: absolute;
+    left: 15%;
+}
+
+.handImg {
+    position: relative;
+    height: 600px;
+    left: 10%;
+}
+
+.textGreenBigSize {
+    margin-top: 50px;
+    text-align: center;
+    color: #009d3b;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.carouselContentsImg {
+    max-height: 100px;
 }
