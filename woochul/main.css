@@ -7,4 +7,63 @@
 }
 
 .hoverGreen {
+    font-size: 20px;
+    font-weight: bold;
+}
+.hoverGreen:hover {
+    color: #009d3b;
+    text-decoration: none;
+    font-weight: none;
+}
+
+.hoverGreenImgTaxi:hover {
+    background: url("img/TaxiGreen.png");
+}
+
+.hoverGreenImgCar:hover {
+    background-image: url("img/carGreen.png");
+}
+
+.grabPayhover {
+    background-image: url("img/grabpayBlack.png");
+    height: 40px;
+}
+
+.grabPayhover:hover {
+    background-image: url("img/grabpayGreen.png");
+    height: 40px;
+}
+
+.backGreen {
+    background-color: #009d3b;
+    height: 400px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.backGreen .textCenter {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.clickToLearn {
+    font-size: 25px;
+    color: #009d3b;
+}
+
+.carousel-item {
+    max-height: 600px;
+}
+
+.carousel-inner > .carousel-item > img {
+    max-height: 800px;
+}
+
+.carousel-inner > span {
+    z-index: 1000;
 }
