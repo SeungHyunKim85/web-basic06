@@ -1,70 +1,75 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Grab How It Works</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
         .img_hidden {
-            display :none;
+            display : none;
         }
     </style>
-  </head>
-  <body>
-    <img
-      class="test_image"
-      src="C:\Users\kshrt\Documents\dev\fds12\web-basic06\sh06\jquery\image\social-github.png"
-    />
-    <a href="#" class="btn">변경</a><br />
+</head>
+
+<body>
+    <img class="test_image" src="C:\Users\kshrt\Documents\dev\fds12\web-basic06\sh06\jquery\image\social-github.png" />
+    <a href="#" class="btn">변경</a>
     How It Works<br />
-    <img class="img_hidden img1" src="image\1st_step.jpg" /><br />
+    <img class="img_hidden img1" src="image\1st_step.jpg" />
     <button class="btn-tgl1">
-      1.Book In Just 2Taps <br />Key in your pick-up and drop-off locations to
-      get your estimated fare.</button
-    ><br />
+        1.Book In Just 2Taps <br />Key in your pick-up and drop-off locations to
+        get your estimated fare.</button><br>
     <img class="img_hidden img2" src="image\2nd_step.jpg" />
-    <br />
     <button class="btn-tgl2">
-      2.Get a Driver <br />Grab will find you the nearest available driver.</button
-    ><br />
+        2.Get a Driver <br />Grab will find you the nearest available driver.</button><br>
     <img class="img_hidden img3" src="image\3rd_step.jpg" />
-    <br />
     <button class="btn-tgl3">
-      3.Track Your Driver <br />Know your driver’s location and estimated time
-      of arrival in real-time.</button
-    ><br />
+        3.Track Your Driver <br />Know your driver’s location and estimated time
+        of arrival in real-time.</button><br>
     <img class="img_hidden img4" src="image\4th_step.jpg" />
-    <br />
     <button class="btn-tgl4">
-      4.Arrive Safely <br />Share your trip details with loved ones for added
-      safety or even just to let them know you’re on your way.</button
-    ><br />
+        4.Arrive Safely <br />Share your trip details with loved ones for added
+        safety or even just to let them know you’re on your way.</button>
 
     <script type="text/javascript">
-      $(".btn").click(function(e) {
-        e.preventDefault();
-        $(".test_image").toggle("duration");
-      });
+        $(".btn").click(function (e) {
+            e.preventDefault();
+            $(".test_image").toggle("duration");
+        });
 
-      $(".btn-tgl1").click(function(e) {
-        e.preventDefault();
-        $(".img1").toggle("complete", function() {});
-      });
+        $(".btn-tgl1").click(function (e) {
+            e.preventDefault();
+            $(".img1").show();
+            $(".img2").hide();
+            $(".img3").hide();
+            $(".img4").hide();
+        });
 
-      $(".btn-tgl2").click(function(e) {
-        e.preventDefault();
-        $(".img2").toggle();
-      });
+        $(".btn-tgl2").click(function (e) {
+            e.preventDefault();
+            $(".img1").hide();
+            $(".img2").show();
+            $(".img3").hide();
+            $(".img4").hide();
+        });
 
-      $(".btn-tgl3").click(function(e) {
-        e.preventDefault();
-        $(".img3").toggle();
-      });
+        $(".btn-tgl3").click(function (e) {
+            e.preventDefault();
+            $(".img1").hide();
+            $(".img2").hide();
+            $(".img3").show();
+            $(".img4").hide();
+        });
 
-      $(".btn-tgl4").click(function(e) {
-        e.preventDefault();
-        $(".img4").toggle();
-      });
+        $(".btn-tgl4").click(function (e) {
+            e.preventDefault();
+            $(".img1").hide();
+            $(".img2").hide();
+            $(".img3").hide();
+            $(".img4").show();
+        });
     </script>
-  </body>
+</body>
+
 </html>
