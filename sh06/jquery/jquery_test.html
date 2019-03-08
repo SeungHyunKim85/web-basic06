@@ -1,0 +1,32 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <img class="test_image" src="image/social-github.png">
+    <a href="#" class="btn">변경</a>
+
+    <script type="text/javascript">
+        $(".btn").click(function(e) {
+            e.preventDefault();
+            $(".test_image").toggle();
+
+            /* 
+            $(".btn").click(function(e) {
+            e.preventDefault();
+            $(".test_image").toggle();
+            
+            if($(".test_image:visible").length) {
+                $(".test_image:visible").hide();
+
+            } else {
+                $(".test_image").show();
+            }
+            */
+        });
+    </script>
+</body>
+</html>
