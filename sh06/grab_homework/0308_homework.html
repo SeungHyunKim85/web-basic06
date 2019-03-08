@@ -40,7 +40,7 @@
 
         $(".btn-tgl1").click(function (e) {
             e.preventDefault();
-            $(".img1").show();
+            $(".img1").toggle();
             $(".img2").hide();
             $(".img3").hide();
             $(".img4").hide();
@@ -49,7 +49,7 @@
         $(".btn-tgl2").click(function (e) {
             e.preventDefault();
             $(".img1").hide();
-            $(".img2").show();
+            $(".img2").toggle();
             $(".img3").hide();
             $(".img4").hide();
         });
@@ -58,7 +58,7 @@
             e.preventDefault();
             $(".img1").hide();
             $(".img2").hide();
-            $(".img3").show();
+            $(".img3").toggle();
             $(".img4").hide();
         });
 
@@ -67,7 +67,7 @@
             $(".img1").hide();
             $(".img2").hide();
             $(".img3").hide();
-            $(".img4").show();
+            $(".img4").toggle();
         });
     </script>
 </body>
