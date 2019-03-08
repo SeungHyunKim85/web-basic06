@@ -1,0 +1,65 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Grab How It Works</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <img
+      class="test_image"
+      src="C:\Users\kshrt\Documents\dev\fds12\web-basic06\sh06\jquery\image\social-github.png"
+    />
+    <a href="#" class="btn">변경</a><br />
+    How It Works<br />
+    <img class="img1" src="image\1st_step.jpg" /><br />
+    <button class="btn-tgl1">
+      1.Book In Just 2Taps <br />Key in your pick-up and drop-off locations to
+      get your estimated fare.</button
+    ><br />
+    <img class="img2" src="image\2nd_step.jpg" />
+    <br />
+    <button class="btn-tgl2">
+      2.Get a Driver <br />Grab will find you the nearest available driver.</button
+    ><br />
+    <img class="img3" src="image\3rd_step.jpg" />
+    <br />
+    <button class="btn-tgl3">
+      3.Track Your Driver <br />Know your driver’s location and estimated time
+      of arrival in real-time.</button
+    ><br />
+    <img class="img4" src="image\4th_step.jpg" />
+    <br />
+    <button class="btn-tgl4">
+      4.Arrive Safely <br />Share your trip details with loved ones for added
+      safety or even just to let them know you’re on your way.</button
+    ><br />
+
+    <script type="text/javascript">
+      $(".btn").click(function(e) {
+        e.preventDefault();
+        $(".test_image").toggle("duration");
+      });
+
+      $(".btn-tgl1").click(function(e) {
+        e.preventDefault();
+        $(".img1").toggle("complete", function() {});
+      });
+
+      $(".btn-tgl2").click(function(e) {
+        e.preventDefault();
+        $(".img2").toggle();
+      });
+
+      $(".btn-tgl3").click(function(e) {
+        e.preventDefault();
+        $(".img3").toggle();
+      });
+
+      $(".btn-tgl4").click(function(e) {
+        e.preventDefault();
+        $(".img4").toggle();
+      });
+    </script>
+  </body>
+</html>
