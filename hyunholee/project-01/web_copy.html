@@ -7,159 +7,435 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="web.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="web2.css">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://www.grab.com/sg/" ></a>
-        <img src="img/Grab_logo.png" class="logo">
-        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </a>
-      
-        <div class="dropdown">
-          <img src="img/singapore.png" class="nationflag">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#"><img src="img/malaysia.png" class="logo_nav">Malaysia</a>
-            <a class="dropdown-item" href="#"><img src="img/indonesia.png" class="logo_nav">Indonesia</a>
-            <a class="dropdown-item" href="#"><img src="img/thailand.png" class="logo_nav">Thailand</a>
-          </div>
-        </div>
 
-        <div class="dropdown">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Service</button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#"><img src="img/malaysia.png" class="logo_nav">Taxi</a>
-            <a class="dropdown-item" href="#"><img src="img/indonesia.png" class="logo_nav">Car</a>
-            <a class="dropdown-item" href="#"><img src="img/thailand.png" class="logo_nav">Share</a>
-          </div>
-        </div>
+    <div id="top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://www.grab.com/sg/"></a>
+            <img src="img/Grab_logo.png" class="logo">
+            <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </a>
+            <img src="img/malaysia.png" class="logo_nav">
+            <ul id="nav-main" class="nav navbar-nav hidden-xs">
+              <li class="dropdown dropdown-large list-countries">		
+                  <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      <img src="img/malaysia.png" class="logo_nav">
 
-        <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Corporate</button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#"><img src="img/score.png" class="icon_corp score">SCORE</a>
-              <a class="dropdown-item" href="#"><img src="img/bag_b.png" class="icon_corp business">Grab for Business</a>
-              <a class="dropdown-item" href="#"><img src="img/ven_b.png" class="icon_corp ventures">Grab Ventures</a>
-            </div>
-          </div>
-
-        <div class="grap_pay">
-          <img src="img/grabpay_b.png" class="hover grap_pay" width="80px">
-        </div>
-  </nav>
-
-
-
-
-        <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/slide_1.jpg" class="d-block w-100" alt="...">
-                  
-                  <div class="carousel-caption d-none d-md-block">
-                    <h1>TAXI. CAR. HITCH.</h1>
-                    <br> 
-                    <br>
-                    <br>
-                    <p>All in one app.</p> 
-                    <br>
-                    <br>
-                    <button type="button" class="btn btn-primary btn-lg action-page">Large button</button>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <img src="img/slide_2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="img/slide_3.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/slide_4.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          
-
-          <div class="screen-guide">
-              <div>
-                  <h2 class="title-works">How it works</h2>
-              </div>
-              
-                <img src="img/hand-mockup.png" class="mockup">
-              
-              
-
-          <div class="container-fluid">
-              <h2>What you should know before your first Grab ride</h2>
-              <button type="button" href="https://www.grab.com/sg/rideguide/" class="btn_learn">click to learn</button>
-            </div>
-
-
-
-            <!-- 두번째 캐러셓 -->
-            <div class="bd-example">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                  </ol>
-
-                  
-
-                  <div class="carousel-inner">
-                      <header class="carousel-text">
-                          <p>Rides For Everyone</p>
-                      </header>
-                    <div class="carousel-item active">
-                      <img src="img/Hitch01.jpg" class="d-block w-100" alt="...">
-                        
-                    </div>
+                  <a href="#" class="dropdown-toggle sg" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="flag"></span></a>
+                  <ul class="dropdown-menu dropdown-menu-large row list-countries" style="position: fixed; top: 60px;">
+                      <li><a href="https://www.grab.com/sg" class="sg">
+                        <img src="img/singapore.png" class="logo_nav">
+                        <span class="flag"></span>Singapore</a>
+                      </li>
+                         
+                      <li><a href="https://www.grab.com/my" class="my">
+                        <img src="img/malaysia.png" class="logo_nav">
+                        <span class="flag"></span>Malaysia</a>
+                      </li>
+                      
+                      <li><a href="https://www.grab.com/id" class="id">
+                        <img src="img/indonesia.png" class="logo_nav">
+                        <span class="flag"></span>Indonesia</a>
+                      </li>
+                      
+                      <li><a href="https://www.grab.com/th" class="th">
+                        <img src="img/thailand.png" class="logo_nav">
+                        <span class="flag"></span>Thailand</a>
+                      </li>
+                       
+                    </a>
+                  </li>
+                </ul>
+              </li>
+        </nav>
+              <li class="dropdown dropdown-large">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Services							</a>
+                                <ul class="dropdown-menu dropdown-menu-large row list-icons" style="position: fixed; top: 60px;  text-align: center; ">
+                                                    <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/taxi/" class="icon-taxi">
+                              Taxi													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/car/" class="icon-car">
+                              Car													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/hitch/" class="icon-hitch">
+                              Hitch													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/share/" class="icon-share">
+                              Share													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/coach/" class="icon-coach">
+                              Coach													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/shuttle/" class="icon-shuttle">
+                              Shuttle													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/shuttleplus/" class="icon-shuttle">
+                              Shuttle Plus													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/family/" class="icon-family">
+                              Family													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/justgrab/" class="icon-justgrab">
+                              JustGrab													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/rental/" class="icon-rental">
+                              GrabRentals													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/wheels/" class="icon-wheel">
+                              Wheels													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/food/" class="icon-grabfood">
+                              Food													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/express/" class="icon-express">
+                              Express Beta													</a>
+                            </li>
+                                                            <li class=" col-sm-1 " style=" display: inline-block;float:none;">
+                                <a href="https://www.grab.com/sg/grabpet/" class="icon-grabpet">
+                              GrabPet													</a>
+                            </li>
+                                          </ul>
+                </li>
+                                                    <li class="dropdown dropdown-large">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Corporate							</a>
+                  <ul class="dropdown-menu dropdown-menu-large row list-icons" style="position: fixed; top: 60px;">
+                                                    <li class="col-sm-2">
+                                <a href="https://www.grab.com/sg/score/" class="icon-score">SCORE</a>
+                            </li>
+                                                            <li class="col-sm-2">
+                                <a href="https://www.grab.com/sg/business/" class="icon-work">Grab for Business</a>
+                            </li>
+                                                            <li class="col-sm-2">
+                                <a href="https://www.grab.com/sg/grab-ventures/" class="icon-ventures">Grab Ventures</a>
+                            </li>
+                                          </ul>
+                </li>
+                                                  <li>
+                    <a href="/sg/grabpay/" class="grabpay-brand"></a>
+                  </li>
+                        <li>
+                <a href="/sg/grabrewards/" class="grabrewards-brand"></a>
+              </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right hidden-xs">
+                            <li>
+                  <a href='https://help.grab.com/hc/en-sg'>Help Centre</a>						</li>
+                            <li>
+                  <a href="https://hub.grab.com/" rel="nofollow"><i class="fa fa-user login" title="Login"></i></a>
+                </li>
+                                      </ul>
     
-                    <div class="carousel-item">
-                      <img src="img/Hitch02.jpg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                      </div>
-                    </div>
+                                  <ul id="nav-drive" class="nav navbar-nav navbar-right hidden-xs ">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Drive with Grab							</a>
+                  <ul class="dropdown-menu list-icons">
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/" class="icon-drive-white" style="">
+                      Drive with Grab</a>
+                    </li>
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/taxi/" class="icon-taxi-drive-white" style="">
+                      Taxi Driver</a>
+                    </li>
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/car/" class="icon-car-drive-white" style="">
+                      Car Driver</a>
+                    </li>
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/hitch/" class="icon-hitch-drive-white" style="">
+                      Hitch Driver</a>
+                    </li>
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/rental/" class="icon-rental-drive-white" style="">
+                      Rental Driver</a>
+                    </li>
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/food/" class="icon-grabfood-drive-white" style="">
+                      GrabFood Driver</a>
+                    </li>
+                                
+                    <li class="abc" style="">
+                      <a href="https://www.grab.com/sg/driver/grabpet/" class="icon-grabpet-drive-white" style="">
+                      GrabPet Driver</a>
+                    </li>
+                                </ul>
+                </li>
+              </ul>
+              
+            </nav>
+            <a id="cd-menu-trigger" href="#0" class="visible-xs"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+    
+                      <a id="btn-download" href="https://www.grab.com/sg/driver" class="visible-xs btn btn-green weight-bold outline text-caps">Driver Sign-Up</a>
+            
+          </div><!-- /container -->
+        </div>
+        <nav class="visible-xs mobile-menu" id="cd-lateral-nav">
+                <div class="inner">
+            <a href="https://hub.grab.com/" target="_blank" class="btn btn-green btn-block weight-bold outline" rel="nofollow">Login</a>
+          </div>
+                  <ul class="cd-navigation list-unstyled" id="menu-main-navigation">
+                        <li class="menu-item-has-children menu-item-drive">
+                    <a href="#">Drive with Grab</a>
+                    <ul id="sub-menu-drive" class="sub-menu list-unstyled list-icons">
+                                                  <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/" class="icon-drive">Drive with Grab</a>
+                  </li>
+                                          <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/taxi/" class="icon-taxi-drive">Taxi Driver</a>
+                  </li>
+                                          <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/car/" class="icon-car-drive">Car Driver</a>
+                  </li>
+                                          <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/hitch/" class="icon-hitch-drive">Hitch Driver</a>
+                  </li>
+                                          <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/rental/" class="icon-rental-drive">Rental Driver</a>
+                  </li>
+                                          <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/food/" class="icon-grabfood-drive">GrabFood Driver</a>
+                  </li>
+                                          <li class="link-">
+                    <a href="https://www.grab.com/sg/driver/grabpet/" class="icon-grabpet-drive">GrabPet Driver</a>
+                  </li>
+                                </ul>
+                </li>
+                                        <li class="menu-item-has-children">
+                  <a href="#">Services</a>
+                    <ul class="sub-menu list-unstyled list-icons">
+                                              <li>
+                  <a href="https://www.grab.com/sg/taxi/" class="icon-taxi">
+                    Taxi							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/car/" class="icon-car">
+                    Car							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/hitch/" class="icon-hitch">
+                    Hitch							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/share/" class="icon-share">
+                    Share							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/coach/" class="icon-coach">
+                    Coach							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/shuttle/" class="icon-shuttle">
+                    Shuttle							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/shuttleplus/" class="icon-shuttle">
+                    Shuttle Plus							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/family/" class="icon-family">
+                    Family							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/justgrab/" class="icon-justgrab">
+                    Just							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/rental/" class="icon-rental">
+                    Rental							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/wheels/" class="icon-wheel">
+                    Wheels							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/food/" class="icon-grabfood">
+                    Food							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/express/" class="icon-express">
+                    Express Beta							</a>
+                </li>
+                                                <li>
+                  <a href="https://www.grab.com/sg/grabpet/" class="icon-grabpet">
+                    Pet							</a>
+                </li>
+                                        </ul>
+                </li>
+                                        <li class="menu-item-has-children">
+                    <a href="#">Corporate</a>
+                    <ul class="sub-menu list-unstyled list-icons">
+                                                <li>
+                            <a href="https://www.grab.com/sg/score/" class="icon-score">SCORE</a>
+                        </li>
+                                                <li>
+                            <a href="https://www.grab.com/sg/business/" class="icon-work">Grab for Business</a>
+                        </li>
+                                                <li>
+                            <a href="https://www.grab.com/sg/grab-ventures/" class="icon-ventures">Grab Ventures</a>
+                        </li>
+                                        </ul>
+                </li>
+                            <li>
+                    <a href="https://www.grab.com/sg/about/">About</a>
+                </li>
+                            <li>
+                  <a href="/sg/grabpay/" class="grabpay-brand mobile-nav"></a>
+                </li>
+                            <li>
+                  <a href="/sg/grabrewards/" class="grabrewards-brand mobile-nav"></a>
+                </li>
+                            <li>
+                <li class="menu-item"><a href="https://www.grab.com/sg/blog/">Blog</a></li>						</li>
+                <li>
+                    <a href="https://www.grab.com/sg/press/">Press</a>
+                </li>
+                <li>
+                    <a href="https://grab.careers/" target="_blank">Careers</a>
+                </li>
+                            <li>
+                    <a href="https://www.grab.com/sg/safety/">Safety</a>
+                </li>
+                <li><a href='https://help.grab.com/hc/en-sg'>Help Centre</a></li>
+                <li class="menu-item-has-children">
+                    <a href="#">Singapore</a>
+                    <ul class="sub-menu list-unstyled list-countries">
+                      
+                  <li><a href="https://www.grab.com/sg" class="sg">Singapore</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/my" class="my">Malaysia</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/id" class="id">Indonesia</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/th" class="th">Thailand</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/vn" class="vn">Vietnam</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/ph" class="ph">Philippines</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/mm" class="mm">Myanmar</a></li>
+    
+                
+                  <li><a href="https://www.grab.com/kh" class="kh">Cambodia</a></li>
+    
+                                <li><a href="https://www.grab.com/sg/where-we-are/" class="globe">Full city list</a>
+                    </li>
+                  </ul>
+                </li>
+                      </ul>
+        </nav>
+        <div class="wrapper">
+      
+      <main role="main">
+        
+        
+            
+                
+                      
+                          
+                            
+                                
+                  
+                                
+                                  <section 
+                      id="section-carousel-homepage-carousel" 
+                        class="section section-carousel section--dark">
+                      
+                                        <div class="carousel slide" data-ride="carousel" id="carousel-homepage-carousel">
+                        
+                        
+                          
+                          <ol class="carousel-indicators">
+                                                        <li class="active" data-slide-to="0" data-target="#carousel-homepage-carousel"></li>
+                                                          <li data-slide-to="1" data-target="#carousel-homepage-carousel"></li>
+                                                          <li data-slide-to="2" data-target="#carousel-homepage-carousel"></li>
+                                                          <li data-slide-to="3" data-target="#carousel-homepage-carousel"></li>
+                                                          <li data-slide-to="4" data-target="#carousel-homepage-carousel"></li>
+                                                          <li data-slide-to="5" data-target="#carousel-homepage-carousel"></li>
+                                                          <li data-slide-to="6" data-target="#carousel-homepage-carousel"></li>
+                                                    </ol>
+                          
+                          
+                          <div class="carousel-inner" role="listbox">
+                                                      <div class="bg-size-cover item active" style="background-image: url(https://assets.grab.com/wp-content/uploads/sites/4/2018/10/15121143/grab_safety_headerimage.png);">
+                                  <div class="carousel-caption">
+                                      <h1>Our promise towards a SAFER EVERYDAY</h1>
+                              <p></p>
+                              <a class="btn btn-lg btn-green text-caps weight-bold" href="/sg/safety/">Find Out More</a>									            </div>
+                              </div>
+                                                        <div class="bg-size-cover item" style="background-image: url(https://www.grab.com/sg/wp-content/uploads/sites/4/2018/07/CarouselBanner_textless_SG.gif);">
+                                  <div class="carousel-caption">
+                                      <h1><img src="https://www.grab.com/sg/wp-content/uploads/sites/4/2018/07/Masthead_SG2.png" height="" width="420"></h1>
+                              <p>Your everyday needs are now <b>a tap away</b>.</p>
+                              <a class="btn btn-lg btn-green text-caps weight-bold" href="https://www.grab.com/sg/blog/welcome-to-our-everyday-super-app/">Find Out More</a>									            </div>
+                              </div>
+                                                        <div class="bg-size-cover item" style="background-image: url(https://www.grab.com/sg/wp-content/uploads/sites/4/2016/05/1_hero_banner.jpg);">
+                                  <div class="carousel-caption">
+                                      <h1>TAXI. CAR. HITCH.</h1>
+                              <p>All in one app.</p>
+                              <a class="btn btn-lg btn-green text-caps weight-bold" href="https://www.grab.com/sg/download/">Download Now!</a>									            </div>
+                              </div>
+                                                        <div class="bg-size-cover item" style="background-image: url(https://www.grab.com/sg/wp-content/uploads/sites/4/2016/05/score-desktop-2.png);">
+                                  <div class="carousel-caption">
+                                      <h1></h1>
+                              <p></p>
+                                                            </div>
+                              </div>
+                                                        <div class="bg-size-cover item" style="background-image: url(https://www.grab.com/sg/wp-content/uploads/sites/4/2016/05/GrabPay_Carousel.jpg);">
+                                  <div class="carousel-caption">
+                                      <h1><img src="https://www.grab.com/sg/wp-content/uploads/sites/4/2016/08/GrabPay_CarouselBanner.png" height="76" width="280"> <br></h1>
+                              <p><span style="font-weight: 400; font-size:2em"> Go cashless. <br> Pay seamlessly.</span></p>
+                              <a class="btn btn-lg btn-green text-caps weight-bold" href="https://www.grab.com/sg/grabpay/">Find out more</a>									            </div>
+                              </div>
+                                                        <div class="bg-size-cover item" style="background-image: url(https://www.grab.com/sg/wp-content/uploads/sites/4/2016/05/driver.jpg);">
+                                  <div class="carousel-caption">
+                                      <h1>EARN. CONNECT. CONTRIBUTE TO SOCIETY.</h1>
+                              <p>Partner with us to drive your own livelihood and more.</p>
+                              <a class="btn btn-lg btn-green text-caps weight-bold" href="http://www.grab.com/driver/">SIGN UP NOW</a>									            </div>
+                              </div>
+                                                        <div class="bg-size-cover item" style="background-image: url(https://www.grab.com/sg/wp-content/uploads/sites/4/2016/05/2_hero_banner-1.jpg);">
+                                  <div class="carousel-caption">
+                                      <h1>OUR COMMITMENT TO DRIVE SOUTHEAST ASIA FORWARD</h1>
+                              <p></p>
+                              <a class="btn btn-lg btn-green text-caps weight-bold" href="https://www.grab.com/sg/about/">FIND OUT MORE</a>									            </div>
+                              </div>
+                                                    </div><!-- /carousel-inner -->
+                      </div><!-- /carousel -->
+                                                
+                    </section>    
 
-                    <div class="carousel-item">
-                      <img src="img/Hitch03.jpg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-          
 
 
 
