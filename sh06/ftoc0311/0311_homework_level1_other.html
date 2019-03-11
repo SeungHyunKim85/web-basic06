@@ -29,7 +29,7 @@
         var fd = 0;
         
         while (true) {
-           var menu = prompt (“1. 섭씨값을 입력해주세요\n2. 화씨값을 입력해주세요\n3. 종료하기“);
+           var menu = prompt ("1. 섭씨값을 입력해주세요\n2. 화씨값을 입력해주세요\n3. 종료하기");
            var menu = Number(menu)
         
            if (menu == 1){
@@ -37,7 +37,7 @@
                    console.log((fd * 9/5)+32);
                    fd = 0;
                } else {
-               var c_to_f = prompt (“화씨를 입력해주세요“);
+               var c_to_f = prompt ("화씨를 입력해주세요");
                c_to_f_num = ((c_to_f * 9/5) + 32);
                cd = c_to_f_num;
                console.log(c_to_f_num);
@@ -47,13 +47,13 @@
                        console.log((cd - 32) * 5/9);
                        cd = 0;
                    } else {
-                   var f_to_c = prompt (“섭씨를 입력해주세요“);
+                   var f_to_c = prompt ("섭씨를 입력해주세요");
                    f_to_c_num = ((f_to_c - 32) * 5/9);
                    fd = f_to_c_num;
                    console.log(f_to_c_num);
                    }
                } else if (menu == 3){
-                   alert (“종료하기“);
+                   alert ("종료하기");
                    break;
                }
         }
