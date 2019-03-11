@@ -1,0 +1,60 @@
+/* Menubar */
+.logo{
+    width: 90px;
+    margin-left: 100px;
+}
+/* 1st Carousel */
+.carousel-inner {
+    height: 650px;
+}
+/* howitworks */
+.indi-title > h2 {
+    color: green;
+    width: 100%;
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+    padding: 25px;
+}
+.mockup-2, .mockup-3, .mockup-4 {
+    display: none;
+}
+.mockup{
+    width: 470px;
+    float: left;
+    margin-left: 100px;
+}
+.indi-step-4-step {
+    margin-top: 60px;
+    display: inline-block;
+    max-width: 300px;
+}
+
+.container-fluid {
+    background-color: green;
+    padding: 50px;
+}
+.btn_learn {
+    background-color: #ffffff;
+    color: green;
+    text-transform: uppercase;
+    padding: 15px 20px 15px;
+    font-size: 1.35em;
+    line-height: 1;
+    box-shadow: none;
+    border-radius: 0;
+}
+.container-fluid {
+    width: 100%;
+    background-color:green;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.container-fluid > h2 {
+    color: #ffffff;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
