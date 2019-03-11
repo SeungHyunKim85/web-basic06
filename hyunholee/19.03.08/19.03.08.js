@@ -1,9 +1,9 @@
 $(".btn1").click(function(e){
     e.preventDefault();
-    $(".mockup-1").show()
-    $(".mockup-2").hide()
-    $(".mockup-3").hide()
-    $(".mockup-4").hide()
+    $("img/mockup-1.png").show()
+    $("img/mockup-2.png").hide()
+    $("img/mockup-3.png").hide()
+    $("img/mockup-4.png").hide()
 });
 
 $(".btn2").click(function(e){
