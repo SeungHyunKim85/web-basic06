@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Pra</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <p id="total"></p>
+        <p id="result"></p>
+
+        <script type="text/javascript">
+            var celsiusData = [];
+            var fahrenheitData = [];
+            while (true) {
+                var number1 = prompt(
+                    "섭씨에서 화씨로: 1 \n 화씨에서 섭씨로: 2 \n 프로그램 종료: 3"
+                );
+                var numNum = Number(number1);
+                if (numNum === 1) {
+                    if (fahrenheitData.length !== 0) {
+                        celsius = Number(
+                            fahrenheitData[fahrenheitData.length - 1]
+                        );
+                        var celsiusToFahrenheitResult = celsius * 1.8 + 32;
+                        console.log(celsiusToFahrenheitResult);
+                        fahrenheitData.shift();
+                    } else {
+                        var celsiusToFahrenheit = prompt(
+                            "섭씨를 입력해 주세요: "
+                        );
+                        var celsius = Number(celsiusToFahrenheit);
+                        var celsiusToFahrenheitResult = celsius * 1.8 + 32;
+                        console.log(celsiusToFahrenheitResult);
+                        celsiusData.splice(0, 1, celsiusToFahrenheitResult);
+                    }
+                } else if (numNum === 2) {
+                    if (celsiusData.length !== 0) {
+                        fahrenheit = Number(
+                            celsiusData[celsiusData.length - 1]
+                        );
+                        var fahrenheitToCelsiusResult = (fahrenheit - 32) / 1.8;
+                        console.log(fahrenheitToCelsiusResult);
+                        celsiusData.shift();
+                    } else {
+                        var fahrenheitToCelsius = prompt(
+                            "화씨를 입력해 주세요: "
+                        );
+                        var fahrenheit = Number(fahrenheitToCelsius);
+                        var fahrenheitToCelsiusResult = (fahrenheit - 32) / 1.8;
+                        console.log(fahrenheitToCelsiusResult);
+                        fahrenheitData.splice(0, 1, fahrenheitToCelsiusResult);
+                    }
+                } else if (numNum === 3) {
+                    console.log("프로그램 종료");
+                    break;
+                }
+            }
+        </script>
+    </body>
+</html>
