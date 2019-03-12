@@ -29,7 +29,7 @@
     display: inline-block;
     max-width: 300px;
 }
-
+/* green */
 .container-fluid {
     background-color: green;
     padding: 50px;
@@ -57,4 +57,22 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+/* 2nd carousel */
+/* .carousel-inner-01{
+    width: 400px;
+    width: 100%;
+    display: block;
+} */
+.carousel-item > d-block01{
+    height: 100%;
+}
+
+
+/* darker */
+.image-darker{
+    
+    height: 400px;
+
 }
