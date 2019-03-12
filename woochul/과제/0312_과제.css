@@ -1,0 +1,161 @@
+.d-block {
+    background-color: gray;
+    width: auto;
+    height: 560px;
+}
+
+.carouselContents {
+    font-size: 20px;
+}
+
+.btn-primary {
+    height: 45px;
+    width: 130px;
+}
+
+.card {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    border: 0px;
+}
+
+.cardCenter {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+.inlineBlockDiv {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.inlineBlockDivContents {
+    max-width: 650px;
+    width: 55%;
+    float: left;
+}
+
+.inlineBlockDivThumbnail {
+    width: 35%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.img-thumbnail {
+    background-color: gray;
+    width: 100%;
+    float: right;
+}
+
+.colorDarkGray {
+    font-size: 45px;
+    color: darkgrey;
+}
+.colorlightkGray {
+    font-size: 45px;
+    color: lightgray;
+}
+
+.fontSize25px {
+    font-size: 20px;
+}
+
+.inlineBlockDivThumbnailLeft {
+    width: 35%;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.inlineBlockDivContentsRight {
+    max-width: 650px;
+    width: 55%;
+    float: right;
+}
+
+.img-thumbnailLift {
+    background-color: gray;
+    width: 100%;
+    float: left;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.footerDivLeft {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    float: left;
+}
+.footerDivRight {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    float: right;
+}
+
+.fistCarousel h1 {
+    text-align: left;
+}
+
+.fistCarousel p {
+    text-align: left;
+}
+
+.fistCarousel button {
+    text-align: left;
+}
+
+.thirdCarousel h1 {
+    text-align: left;
+}
+
+.thirdCarousel p {
+    text-align: left;
+}
+
+.thirdCarousel button {
+    text-align: left;
+}
+
+@media (max-width: 1040px) {
+    .card {
+        display: inline;
+    }
+    .cardtop_body {
+        max-width: 700px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .inlineBlockDiv {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-thumbnail {
+        width: 70%;
+        float: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .inlineBlockDivWidth {
+        width: 100%;
+    }
+}

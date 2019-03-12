@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="0312_과제.css"
+        />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">FDS</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"
+                                >Home <span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Album</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dash Board</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input
+                            class="form-control mr-sm-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button
+                            class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit"
+                        >
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="bd-example">
+            <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-ride="carousel"
+            >
+                <ol class="carousel-indicators">
+                    <li
+                        data-target="#carouselExampleCaptions"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li
+                        data-target="#carouselExampleCaptions"
+                        data-slide-to="1"
+                    ></li>
+                    <li
+                        data-target="#carouselExampleCaptions"
+                        data-slide-to="2"
+                    ></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block fistCarousel">
+                            <h1>Example headline.</h1>
+                            <p class="carouselContents">
+                                Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh
+                                ultricies vehicula ut id elit.
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary">
+                                    Sign In Now
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Another example headline.</h1>
+                            <p class="carouselContents">
+                                Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh
+                                ultricies vehicula ut id elit.
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary">
+                                    Learn more
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block thirdCarousel">
+                            <h1>One more for good measure.</h1>
+                            <p class="carouselContents">
+                                Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh
+                                ultricies vehicula ut id elit.
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary">
+                                    Browse gallery
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleCaptions"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carouselExampleCaptions"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="cardCenter">
+                <div class="card" style="width: 18rem;">
+                  <div class="cardtop_body">
+                    <div class="card-img-top"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                        </p>
+                        <a href="#" class="btn btn-secondary"
+                            >View details >></a
+                        >
+                    </div>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="cardtop_body">
+                    <div class="card-img-top"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                        </p>
+                        <a href="#" class="btn btn-secondary"
+                            >View details >></a
+                        >
+                    </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="cardtop_body">
+                    <div class="card-img-top"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                        </p>
+                        <a href="#" class="btn btn-secondary"
+                            >View details >></a
+                        >
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr />
+            <div class="container">
+            <div class="inlineBlockDiv inlineBlockDivContents">
+              <p>
+              <span class="colorDarkGray">First featurette heading.</span>
+              <span class="colorlightkGray">It’ll blow your mind.</span>
+              <p class="fontSize20px">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </p>
+            </div>
+            <div class="inlineBlockDivWidth">
+            <div class="inlineBlockDiv inlineBlockDivThumbnail">
+                <img src="img/grayBackground.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="container">
+                <hr>
+              <div class="inlineBlockDiv inlineBlockDivThumbnailLeft">
+                  <img src="img/grayBackground.jpg" alt="..." class="img-thumbnailLift">
+              </div>
+              <div class="inlineBlockDiv inlineBlockDivContentsRight">
+                <p>
+                <span class="colorDarkGray">First featurette heading.</span>
+                <span class="colorlightkGray">It’ll blow your mind.</span>
+                <p class="fontSize20px">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+              </p>
+              </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="container">
+              <hr>
+              <div class="inlineBlockDiv inlineBlockDivContents">
+                  <p>
+                  <span class="colorDarkGray">First featurette heading.</span>
+                  <span class="colorlightkGray">It’ll blow your mind.</span>
+                  <p class="fontSize20px">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </p>
+                </div>
+                <div class="inlineBlockDiv inlineBlockDivThumbnail">
+                    <img src="img/grayBackground.jpg" alt="..." class="img-thumbnail">
+                </div>
+              </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="container">
+        <footer>
+          <hr>
+          <div class="footerDivLeft">© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="">Terms</a></div>
+          <div class="footerDivRight"><a href="#">Bact to top</a></div>
+        </footer>
+      </div>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
