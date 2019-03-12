@@ -145,17 +145,23 @@ footer {
 @media (max-width: 992px) {
     .inlineBlockDiv {
         display: inline;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
     }
     .img-thumbnail {
-        width: 70%;
-        float: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .inlineBlockDivWidth {
         width: 100%;
+        text-align: center;
+        display: inline;
+        margin: 0px auto;
+    }
+    #flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #order2 {
+        order: 2;
+    }
+    #order1 {
+        order: -1;
     }
 }
