@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+<style>
+    .whole_area {
+        width: 100%;
+    }
+    .icon_wrapper {
+        line-height: 200px;
+        text-align: center;
+        height: 200px;
+        width: 100%!important;
+    }
+    .icon_wrapper img {
+        display: inline-block;
+        height: 140px;
+    }
+/* 섹션 */
+        .icon_wrapper.youtube {
+            background: #ff0004;
+        }
+        .icon_wrapper.facebook {
+            background: #4768ad;
+        }
+        .icon_wrapper.instagram {
+            background: #f09433; 
+            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        }
+        .icon_wrapper.twitter {
+            background: #45a0eb;
+        }
+        .icon_wrapper.pinterest {
+            background: #bb3331;
+    }
+    @media screen and (max-width: 800px){
+    .icon_wrapper {
+        line-height: 10px;
+        text-align: center;
+        width: 10%;
+        height: 10px;
+        width: 10%!important;
+    }
+    .icon_wrapper img {
+        text-align: center;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+    }}
+</style>
+
+</head>
+
+<body>
+    <div class="whole_area WholeArea wholeArea">
+        <div class="icon_wrapper facebook">
+            <img src="icon/social-facebook-logo.png">
+        </div>
+
+        <div class="icon_wrapper instagram">
+            <img src="icon/social-instagram-logo.png">
+        </div>
+
+        <div class="icon_wrapper twitter">
+            <img src="icon/social-twitter-logo.png">
+        </div> 
+
+        <div class="icon_wrapper pinterest">
+            <img src="icon/social-pinterest-logo.png">
+        </div>
+
+        <div class="icon_wrapper youtube">
+            <img src="icon/social-youtube-logo.png">
+        </div>
+    </div>
+</body>
+</html>

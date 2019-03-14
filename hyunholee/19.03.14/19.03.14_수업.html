@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2019.03.14</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript">
+        // document ready
+        $(document).ready(function(){
+            console.log("1");
+        });
+        // callback
+        $(function (){
+            console.log("3");
+        });
+        // window ready : window load 3.x removed
+        $(window).ready(function(){
+            console.log("2");
+        })
+    </script>
+    <script>
+        /* 
+            Window 객체 : 브라우저를 제어하는 객체
+            Window.open ("https://naver.com") = 새로운 창
+            Window.close = 현재 창 닫기 
+            Window.print = 현재 창을 출력하는 다이얼로그 
+            confirm("") = T/F 값을 변환
+            prompt = 입력 창 / 변수
+            window.alert = 경고 메세지 창
+            window.innerHeight = 창 높이
+            window.innerWidth = 창 가로
+            window.pageXOffset = 가로 스트롤값 (수치)
+            window.pageYOffeset = 세로 스크롤값 (수치)
+            window.resizeTo(w,h)
+            window.resizeBy(w,h) +,-
+            window.scrollBy(x,y)  
+            window.scrollTo(x,y)    
+
+            pushing = 서버에서 넘어옴
+            pulling = 
+
+                꾸준히 여러번 실행
+                interval = window.setInterval(function(){
+                    [실행하는 코드]
+                    },1000)
+                    console.log(1);
+                window.clearInterval(interval="변수")
+
+                한번 실행할 코드
+                timeout = window.setTimeout(function(){
+                    [실행하는 코드]
+                },1000)
+                console.log(1);
+                window.clearTimeout(timeout="변수")
+            
+            screen.width = 화면 해상도
+            screen.height = 화면 해상도
+            screen.availHeight = 실제 이용 가능한 화면 영
+            screen.availWidth = 실제 이용 가능한 화면 영
+
+            history.length = 쌓여있는 페이지 갯수
+            history.back = 이전 패이지를 보여줌 (히스토리) 스크롤 위치도 기억
+            history.forward = 다음 페이지
+            history.go(정수) = +,- 페이지 이동
+
+            = 정보를 이용해서 고객 분석에 사용
+            navigator.platform = 윤영체채 종류
+            navigator.userAgent = 브라우저 종류
+            navigator.language = 언어 종류
+            navigator.geolocation.getCurrentPosition(function(position) {console.log(position.coords.latitude, position.coords.longitude);}) = 위치 정보 허용 (수집)
+            *구글 에널리틱스
+            
+            location.href = 웹 이동 = 현 주소 = 히스토리 쌓음
+            location.protocol = http 매서드 
+            location.pathname = 경로
+            location.search = query 값
+            location.hash = anchor값 
+            location.reload = 페이지 새로고침
+            location.replace("https://www.naver.com") = 웹 이동 = 히스토리를 쌓지 않음 = 페이지 갈아끼기
+
+            todo 
+            목록에 추가 
+            목록 삭제 
+            목록 수정
+
+            웹 브라우저가 문서를 표시하는 순서
+            1. HTML 로드
+            2. DOM 생성
+            3. $(document).ready() 실행
+            4. 이미지 등 요소 로드
+            5. 페이지 로딩 완료
+            6. $(window).ready() // load는 3.0에서 removed, 1.8 deprecated
+
+            Event
+                -Form : blur, change
+                -Mouse : click, contextmenu, dbclick, mousedown, mouseenter, mouseleave, mousemover,            mouseout, mouseover, mouseup
+                -Keyboard : Keydown, Keypress, Keyup
+
+        
+        */
+    </script>
+</head>
+<body>
+    <a href="https://www.naver.com" class="test" id="naver_link">test</a>
+    <script type="text/javascript">
+
+        <ul>
+            <li>바나나<li>
+            <li>사과<li>
+        </ul>
+        
+    // jquery에서 각 이벤트는
+        // $(요소).eventName(실행할 함수);
+
+        // $(요소).attr(요소이름); :해당요소의 속성값 읽어온다.
+
+        // (요소).addClass ('클래스이름'). removeClass('클래스이름'), .toggleClass('클래스이름') : 클래스를 추가 삭제하는 역할
+
+        // 컨텐츠 변경
+        // $(요소).html(), .text() : 내부 값 읽기
+        // $(요소)).html(), .text(값) : 내부 값 변경
+
+        // 값은 추가
+        // $(요소).html($(요소), .html()+추가 값
+
+
+
+    // $('a').blur('blur' function(){
+    //     alert('test');
+    // });
+
+    $('a').click(function(e){
+        e.preventDefault();
+        $(this).hide();
+        // alert($(this).attr('herf'));
+        // 이벤트를 발생시킨 요소 = target, curentTarget
+    });
+
+    // $('a').mosueover(function(){
+    //     alert('test')
+    // });
+    </script>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+</html>

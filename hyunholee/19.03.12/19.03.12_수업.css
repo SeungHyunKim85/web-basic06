@@ -1,0 +1,41 @@
+/* .div_test {
+    background-color: #d5d5d5;
+    background: url();
+    background-size:
+} */
+
+/* 1 */
+    /* .element {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(sprite.png);
+        background-position: -77px -158px;
+    } */
+        /* text-indent:-999px; */
+    
+    /* .element:hover{
+        background: url(sprite.png) -51px -158px;
+        background-repeat: no-repeat;
+
+    } */
+    /* .element:visited {
+        background: url(sprite.png);
+        background-repeat: no-repeat;
+        background-position: -26px -158px;
+    } */
+
+/* 2 */
+    .teststyle {
+    word-spacing: 2em;
+    letter-spacing: 0.5em;
+    word-break: break-all;
+    text-indent: 30px;
+    display: inline-block;
+    line-height: 10em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-decoration: line-through;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    }
