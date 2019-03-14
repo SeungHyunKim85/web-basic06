@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <h1 class="my-to-do-list-class1">My To Do List</h1><br>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="add_todo_text" placeholder="My To Do List">
+                </div>
+                <button type="submit" class="btn btn-primary" id="button-addon1">Add1</button>
+                <button type="submit" class="btn btn-primary" id="button-addon2">Delete2</button>
+                <button type="submit" class="btn btn-primary" id="button-addon3">Input3</button>
+            </form>
+        </div>
+    </div>
+    <div>
+        <ol class="list-group list-group-flush todo_list_all">
+            <li class="list-group-item">add your to do list</li>
+            <li class="list-group-item sample-list" style="display:none"></li>
+        </ol>
+    </div>
+    </div>
+    <div>
+
+        <script type="text/javascript">
+            //버튼 클릭시 추가,삭제
+            $(document).ready(function () {
+                //추가
+                $('#button-addon1').click(function (e) {
+                    e.preventDefault();
+                    console.log('button1_test');
+                    $('ol.list-group').prepend($('<li class="list-group-item">add your to do list</li>'));
+                });
+                //삭제
+                $('#button-addon2').click(function (e) {
+                    e.preventDefault();
+                    console.log('button2_test');
+                    $('li.list-group-item').remove();
+                });
+            });
+            //입력
+            $(document).ready(
+                function() {
+                    $('#button-addon3').click(function(e){
+                        e.preventDefault();
+                        console.log('button3_test');
+                        var toAdd = $('input[id=add_todo_text]').val();
+                        $('ol').prepend('<li class="list-group-item">' + toAdd + '</li>');
+                    });
+
+                    $("input[id=add_todo_text]").keyup(function(event){
+                        if(event.keyCode == 13) {
+                            $("#button-addon3").click();
+                        }
+                    });
+
+                    $('input').focus(function() {
+                        $(this).val('');
+                    });
+                });
+        </script>
+</body>
+
+</html>
