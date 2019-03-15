@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <script type="text/javascript">
+      //console.log(Math.random()); //0~1 사이의 숫자를 랜덤
+      // 1~10 사이의 정수를 뽑아주는 코드
+      /*         for (i = 0; i < 5; i++) {
+            var numbers = [];
+
+            while (numbers.length < 6) {
+                var number = Math.floor((Math.random() * 45) + 1);
+                if (numbers.indexOf(number) == -1) {
+   
+                    numbers.push(number);
+                }
+            }   
+
+            numbers.sort(function(a,b){return a-b});
+            console.log(numbers);
+        } */
+      var gamesByCost; //가격을 계산합니다 h j i i
+      var gamesByPerson; //횟수를 선택합니다 k j i i
+      // 가격*횟수 h*k
+
+      function lottoGame() {
+        for (j = 0; j < 5; j++) {
+          //5번 게임 하기
+          var original_numbers = [];
+          for (i = 1; i < 46; i++) {
+            //1~46 숫자 중 하나 뽑기
+            original_numbers.push(i);
+          }
+
+          var numbers = [];
+
+          for (i = 0; i < 6; i++) {
+            //6번 로또 숫자 뽑기
+            var number_index = Math.floor(
+              Math.random() * original_numbers.length
+            );
+            var get_number = original_numbers[number_index];
+            numbers.push(get_number);
+            original_numbers.splice(number_index, 1);
+          }
+
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          alert(numbers);
+          console.log(numbers);
+          var lotto_text;
+        }
+      }
+
+      function lottoGame0() {
+        for (j = 0; j < 1; j++) {
+          //5번 게임 하기
+          var original_numbers = [];
+          for (i = 1; i < 46; i++) {
+            //1~46 숫자 중 하나 뽑기
+            original_numbers.push(i);
+          }
+
+          var numbers = [];
+
+          for (i = 0; i < 6; i++) {
+            //6번 로또 숫자 뽑기
+            var number_index = Math.floor(
+              Math.random() * original_numbers.length
+            );
+            var get_number = original_numbers[number_index];
+            numbers.push(get_number);
+            original_numbers.splice(number_index, 1);
+          }
+
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          alert(numbers);
+          console.log(numbers);
+          var lotto_text;
+        }
+      }
+
+      function lottoGame1() {
+        for (j = 0; j < 2; j++) {
+          //5번 게임 하기
+          var original_numbers = [];
+          for (i = 1; i < 46; i++) {
+            //1~45 숫자 중 하나 뽑기
+            original_numbers.push(i);
+          }
+
+          var numbers = [];
+
+          for (i = 0; i < 6; i++) {
+            //6번 로또 숫자 뽑기
+            var number_index = Math.floor(
+              Math.random() * original_numbers.length
+            );
+            var get_number = original_numbers[number_index];
+            numbers.push(get_number);
+            original_numbers.splice(number_index, 1);
+          }
+
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          alert(numbers);
+          console.log(numbers);
+          var lotto_text;
+        }
+      }
+
+      function lottoGame2() {
+        for (j = 0; j < 3; j++) {
+          //5번 게임 하기
+          var original_numbers = [];
+          for (i = 1; i < 46; i++) {
+            //1~46 숫자 중 하나 뽑기
+            original_numbers.push(i);
+          }
+
+          var numbers = [];
+
+          for (i = 0; i < 6; i++) {
+            //6번 로또 숫자 뽑기
+            var number_index = Math.floor(
+              Math.random() * original_numbers.length
+            );
+            var get_number = original_numbers[number_index];
+            numbers.push(get_number);
+            original_numbers.splice(number_index, 1);
+          }
+
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          alert(numbers);
+          console.log(numbers);
+          var lotto_text;
+        }
+      }
+
+      function lottoGame3() {
+        for (j = 0; j < 4; j++) {
+          //5번 게임 하기
+          var original_numbers = [];
+          for (i = 1; i < 46; i++) {
+            //1~46 숫자 중 하나 뽑기
+            original_numbers.push(i);
+          }
+
+          var numbers = [];
+
+          for (i = 0; i < 6; i++) {
+            //6번 로또 숫자 뽑기
+            var number_index = Math.floor(
+              Math.random() * original_numbers.length
+            );
+            var get_number = original_numbers[number_index];
+            numbers.push(get_number);
+            original_numbers.splice(number_index, 1);
+          }
+
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          alert(numbers);
+          console.log(numbers);
+          var lotto_text;
+        }
+      }
+
+      function lottoGame4() {
+        for (j = 0; j < 5; j++) {
+          //5번 게임 하기
+          var original_numbers = [];
+          for (i = 1; i < 46; i++) {
+            //1~45 숫자 중 하나 뽑기
+            original_numbers.push(i);
+          }
+
+          var numbers = [];
+
+          for (i = 0; i < 6; i++) {
+            //6번 로또 숫자 뽑기
+            var number_index = Math.floor(Math.random() * original_numbers.length);
+            var get_number = original_numbers[number_index];
+            numbers.push(get_number);
+            original_numbers.splice(number_index, 1);
+          }
+
+          numbers.sort(function(a, b) {
+            return a - b;
+          });
+          
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- 
+        로또 번호는 
+        1~45까지의 정수 중에서 중복되지 않는 숫자 6개를 뽑는 게임
+        로또 용지 1장은 최대 5게임을 표현할 수 있습니다.
+        1게임 1,000원, 최대 1장은 5,000원
+        1) 로또 번호 1게임을 뽑게 해준다.
+        2) 로또 번호 5게임을 뽑게 해준다.
+        3) 로또 번호를 지정된 게임 수 만큼 뽑게 해준다.
+        4) 지정된 게임 수만큼 뽑고, 비용을 함께 출력한다.
+     -->
+
+    <input type="text" readonly="" id="lotto_text" />
+    <input type="button" value="로또 번호 생성" onclick="lottoGame()" />
+    <input type="button" value="로또 가격 계산" onclick="" />
+    <input type="button" value="로또 횟수 선택" onclick="" />
+    <input type="button" value="로또 1000원" onclick="lottoGame0()" />
+    <input type="button" value="로또 2000원" onclick="lottoGame1()" />
+    <input type="button" value="로또 3000원" onclick="lottoGame2()" />
+    <input type="button" value="로또 4000원" onclick="lottoGame3()" />
+    <input type="button" value="로또 5000원" onclick="lottoGame4()" />
+  </body>
+</html>
