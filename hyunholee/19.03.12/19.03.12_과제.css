@@ -116,22 +116,25 @@
         width: 100%;
     }
     .lead{
-       width:50%;
+       width:55%;
        text-align: center;
     }
-    
-
     /* cards_deck */
     .row_deck{  
         margin-left: auto;
-        max-width: 950px;
+        max-width: 1100px;
         margin-right: auto;
     }
+    .card-body > p {
+        float: right;
+        display: inline-block;
+    }
     .album_card_deck{
+        margin-top: 20px;
         border: 1px solid lightgray;
     }
     .card-img-top-album{
-        height: 250px;
+        height: 220px;
         background-color: #353a3f;
     }
     

@@ -95,10 +95,21 @@
 
             Event
                 -Form : blur, change
-                -Mouse : click, contextmenu, dbclick, mousedown, mouseenter, mouseleave, mousemover,            mouseout, mouseover, mouseup
+                -Mouse : click, contextmenu, dbclick, mousedown, mouseenter, mouseleave, mousemover, mouseout, mouseover, mouseup
                 -Keyboard : Keydown, Keypress, Keyup
 
-        
+            $(document).on('click, '.tt', function(){
+            });
+
+            $('.to-do-list').append($('.complete'))
+            
+
+            과제
+            todolist
+                lv1 - 추가/삭제
+                lv2 - 필터 (완료,수정,진행...)
+
+
         */
     </script>
 </head>
@@ -106,11 +117,8 @@
     <a href="https://www.naver.com" class="test" id="naver_link">test</a>
     <script type="text/javascript">
 
-        <ul>
-            <li>바나나<li>
-            <li>사과<li>
-        </ul>
         
+
     // jquery에서 각 이벤트는
         // $(요소).eventName(실행할 함수);
 
@@ -120,10 +128,21 @@
 
         // 컨텐츠 변경
         // $(요소).html(), .text() : 내부 값 읽기
-        // $(요소)).html(), .text(값) : 내부 값 변경
+        // $(요소)).html(), .text(값) : 내부 값을 변경
 
         // 값은 추가
-        // $(요소).html($(요소), .html()+추가 값
+        // $(요소).html($(요소), .html()+"추가 값")
+        // $(요소).append("추가값")
+        // $(요소).prepend("추가값")
+
+        // $(요소).remove() : 요소를 제거
+        // $(요소).remove('selector') : 해당 요소의 자식 노드 중 selector에 해당하는 자식을 삭제
+
+        //css
+        $(요소).css('display', 'block');
+        $(요소).css({'display:'block','color','red'})
+
+
 
 
 
