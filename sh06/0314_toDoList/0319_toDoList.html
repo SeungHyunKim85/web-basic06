@@ -84,7 +84,7 @@
                     var storage_key = "content";
                     $('#button-addon4').click(function () {
                         // 폼 데이터를 문자열로 합치기
-                        var form_content = $('#button-addon4').serialize();
+                        var form_content = $('ol.todo_list_all').serialize();
 
                         // 합친 문자열을 localStorage에 저장
                         localStorage.setItem(storage_key, form_content);
@@ -107,7 +107,19 @@
                         return false;
                     });
                 });
+/*                  // 데이터를 사전형으로 저장하기
+                    var content = {} // dictionary (사전형)                    
 
+                    // 사전형 변수를 문자열로 형변환하기
+                    var content_string = JSON.stringify(content);
+
+                    // 문자열이었던 데이터를 다시 사전형으로 형변환하기
+                    content_dict = JSON.parse(content_string);
+
+                    // 사전형 전체 데이터를 하나씩 꺼내서 처리하기
+                    for (var key in content_dict) {
+                        // 해당 사전형 변수에서 하나의 값을 선택하여 꺼내기
+                        $('#' + key).val(content_dict[key]); */
         </script>
 </body>
 
