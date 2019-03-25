@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+</head>
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul,
+    li {
+        list-style: none;
+        float: left;
+        margin-left: 30px;
+    }
+
+    #wrap {
+        float: left;
+        width: 100%;
+    }
+
+    .gnb {
+        float: left;
+        width: 100%;
+        height: 30px;
+        background: #fbfbfb;
+    }
+
+    .gnb a {
+        float: left;
+    }
+
+    .gnb_center {
+        width: 135px;
+        margin: 5px auto;
+    }
+
+    .gnb_center ul {
+        float: left;
+    }
+
+    .gnb_center ul li {
+        float: left;
+        margin-right: 10px;
+    }
+
+    #container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    #header {
+        float: left;
+        width: 1000px;
+        border: 1px;
+    }
+
+    #header h1 {
+        float: left;
+        margin-left: 400px;
+        color: red;
+        font-size: 40px;
+    }
+
+    .menu {
+        float: left;
+        width: 1000px;
+        height: 40px;
+        background: red;
+    }
+
+    .left {
+        float: left;
+        width: 650px;
+    }
+
+    .left_content1 {
+        float: left;
+        width: 600px;
+        height: 350px;
+        margin-top: 10px;
+        background: #edeef0;
+    }
+
+    .right {
+        float: left;
+        width: 330px;
+        margin: 10px 0 0 20px;
+    }
+
+    .right_content2 {
+        float: left;
+        width: 400px;
+        height: 120px;
+        margin-bottom: 10px;
+        background: #f8f8f8;
+    }
+
+    #footer {
+        float: left;
+        width: 1000px;
+        height: 30px;
+        margin: 10px 0 30px 0;
+        background: #e1e1e1;
+    }
+
+    .right_content2 ul li {
+        list-style-type: none;
+        display: inline;
+        outline: 1px solid red;
+    }
+    #aside {
+        position: absolute;
+        position: fixed;
+        top: 100px;
+        right: 0;
+        z-index: 3;
+        width: 100px;
+        border: 2px solid grey;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(248, 227, 36);
+        color: black;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <div>세상의 모든 신발 ABC-MART</div>
+    <div id="aside">오른쪽 고정 배너</div>
+    <div class="content"></div>
+    <div id="wrap">
+        <div class="gnb">
+            <div class="gnd_center">
+                <ul>
+                    <li>카테고리</li>
+                    <li>운동화</li>
+                    <li>스포츠,레저</li>
+                    <li>구두</li>
+                    <li>샌들</li>
+                    <li>부츠</li>
+                    <li>의류 및 용품</li>
+                </ul>
+            </div>
+            <!-- gnb_center -->
+        </div>
+        <div id="container">
+            <div id="header">
+                <h1>abc mart</h1>
+            </div>
+            <div class="menu"></div>
+            <div class="left">
+                <div class="left_content1">
+                    <img src="..."><a href="#">
+                </div>
+                <div class="left_content1">
+                    <ul>
+                        <li>1 <img src="..."><a href="#"></a></li>
+                        <li>2 <img src="..."><a href="#"></a></li>
+                        <li>3 <img src="..."><a href="#"></a></li>
+                        <li>4 <img src="..."><a href="#"></a></li>
+                        <li>5 <img src="..."><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="left_content1"></div>
+            </div>
+            <div class="right">
+                <div class="right_content2">런팔콘</div>
+                <div class="right_content2">판매가</div>
+                <div class="right_content2">배송비</div>
+                <div class="right_content2">색상코드</div>
+                <div class="right_content2">컬러</div>
+                <div class="right_content2">사이즈</div>
+                <div class="right_content2">관련용품 추가구매</div>
+                <div class="right_content2">
+                    <ul>
+                        <li>찜하기</li>
+                        <li>장바구니</li>
+                        <li>매장픽업</li>
+                        <li>바로구매</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div><img src=".\img\a01.jpg"><img src=".\img\a02.jpg">
+            <img src=".\img\a03.jpg"><img src=".\img\a04.jpg"></div>
+        <div>
+            <ul>
+                <li>상품 정보</li>
+                <li>상품 후기</li>
+                <li>상품 Q&A</li>
+                <li>배송 / 교환 / 반품 / AS안내</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>상품 정보</li>
+                <li>상품 후기</li>
+                <li>상품 Q&A</li>
+                <li>배송 / 교환 / 반품 / AS안내</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>상품 정보</li>
+                <li>상품 후기</li>
+                <li>상품 Q&A</li>
+                <li>배송 / 교환 / 반품 / AS안내</li>
+            </ul>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <footer><div class="footer"><p>Footer</p></div></footer>
+</body>
+
+</html>
